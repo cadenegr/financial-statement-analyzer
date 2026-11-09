@@ -1,0 +1,13 @@
+# Client financial data and anything derived from it: never commit
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+.cache/
+reports/
+
+# Environment and build outputs
+.venv/
+__pycache__/
+engine/obj/
+engine/map-engine
